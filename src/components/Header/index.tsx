@@ -5,14 +5,16 @@ export function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.headerContainer}>
-                <ul className={styles.headerMenu}>
+                <ul>
                     <li>
-                        <Image 
-                            src="/globalnav_apple_image__cxwwnrj0urau_large.svg"
-                            alt="Apple" 
-                            width={44} 
-                            height={44}
-                        />
+                        <a href="">
+                            <Image 
+                                src="/globalnav_apple_image__cxwwnrj0urau_large.svg"
+                                alt="Apple" 
+                                width={44} 
+                                height={44}
+                            />
+                        </a>
                     </li>
                     <li>
                         <a href="">Mac</a>
@@ -36,21 +38,24 @@ export function Header() {
                         <a href="">Suporte</a>
                     </li>
                     <li>
-                        <Image 
-                            className={styles.search}
-                            src="/globalnav_search_image__fca9mfoh8a2q_large.svg" 
-                            alt="Search"
-                            width={44}
-                            height={44}
-                        />
+                        <a href="">
+                            <Image 
+                                src="/globalnav_search_image__fca9mfoh8a2q_large.svg" 
+                                alt="Search"
+                                width={44}
+                                height={44}
+                            />
+                        </a>
                     </li>
                     <li>
-                        <Image 
-                            src="/globalnav_bag_image__bmix8075eg4i_large.svg"
-                            alt="Bag" 
-                            width={44} 
-                            height={44}
-                        />
+                        <a href="">
+                            <Image 
+                                src="/globalnav_bag_image__bmix8075eg4i_large.svg"
+                                alt="Bag" 
+                                width={44} 
+                                height={44}
+                            />
+                        </a>
                     </li>
                 </ul>                
             </div>      

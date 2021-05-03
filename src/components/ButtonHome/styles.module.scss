@@ -1,0 +1,55 @@
+.button {
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {  
+        .containerButton {
+            .textButton{
+                text-decoration: underline;
+            }
+        }      
+    }
+
+    .containerButton {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0.7rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        
+        .textButton {
+            color: var(--blue-500);
+            font-size: 20px;
+            text-decoration: none;
+        }
+    
+        .materialIcons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;  /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            color: var(--blue-500);
+          
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+          
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+          
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+          }
+    }
+}
+
+

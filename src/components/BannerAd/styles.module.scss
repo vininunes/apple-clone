@@ -1,0 +1,53 @@
+.containerBanner {
+    transform: translateY(2.75rem);
+    margin-bottom: 1rem; 
+
+    .contentBanner {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .titleBanner {        
+            margin-top: 3rem;
+            font-size: 56px;
+            font-weight: 700;
+            color: var(--gray-800);
+        }
+
+        .titleBannerDark {        
+            margin-top: 3rem;
+            font-size: 56px;
+            font-weight: 700;
+            color: var(--white);
+        }
+
+        .subtitleBanner {        
+            margin-top: 0.3rem;
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--gray-800);
+        }
+
+        .subtitleBannerDark {        
+            margin-top: 0.3rem;
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--white);
+        }
+
+        .alertBanner {
+            margin-top: 0.5rem;
+        }
+
+        .containerButtons {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    
+}
