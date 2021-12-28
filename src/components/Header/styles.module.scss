@@ -1,55 +1,50 @@
 .header {
-    position: fixed;
-    width: 100%;
-    z-index: 1;     
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 
-    .headerContainer {    
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    height: 2.75rem;
+
+    background-color: #1d1d1fd3;
+    backdrop-filter: blur(50px);
+
+    ul {
+      margin: 0 159px;
+      width: 100%;
+      height: 100%;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      li {
         display: flex;
-        align-items: center;      
-        background-color: var(--gray-800);
-        opacity: 1;
-        height: 2.75rem;  
-    
-        ul {    
-            margin:  0 159px; 
-            width: 100%;
-            height: 100%;
-            list-style: none;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;        
-        
-            li {
-                display: flex;
-                margin: 2rem;
-                padding: 0 10px;
-                margin: 0;
-                height: 100%;
-                align-items: center;
-                
-        
-                a {
-                    text-decoration: none;
-                    font-weight: 100;
-                    font-size: 0.9rem;
-                    color: var(--white);
-                    opacity: 0.8;
-                    cursor: pointer;
-                    display: flex;
-                    align-items: center;
-                    transition: all 200ms;
-        
-                    &:hover {
-                        opacity: 1;
-                    }
-                }
-            }
+        margin: 2rem;
+        padding: 0 10px;
+        margin: 0;
+        height: 100%;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          font-weight: 100;
+          font-size: 0.9rem;
+          color: var(--white);
+          opacity: 0.8;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          transition: all 200ms;
+
+          &:hover {
+            opacity: 1;
+          }
         }
+      }
     }
+  }
 }
-
-
-      
-
-
-
